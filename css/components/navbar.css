@@ -1,0 +1,19 @@
+
+.subnav a{
+  text-decoration: none;
+  color: black;
+  font-family: Orbitron;
+  font-size: 22px;
+}
+
+.subnav{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.subnav{
+  padding: 15px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}

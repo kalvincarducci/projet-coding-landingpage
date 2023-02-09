@@ -1,0 +1,30 @@
+.accueil{
+  padding: 4px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+h3{
+  /* THE GALLERY */
+  font-family: karla;
+  font-weight: 400;
+  font-size: 32px;
+}
+p{
+  font-family: karla;
+  font-size: 20px;
+  text-align: justify;
+  margin: 8px;
+}
+
+.liens{
+  padding-top: 26px;
+  text-align: right;
+}
+
+.liens a{
+  font-family: Orbitron;
+  color: black;
+  font-size: 28px;
+  margin: 8px;
+}

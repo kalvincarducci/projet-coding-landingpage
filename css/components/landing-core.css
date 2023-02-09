@@ -1,0 +1,54 @@
+.landing-core{
+  display: flex;
+  align-items: ;
+  flex-flow: row;
+  height: 1000px;
+  width: 100%;
+}
+h2{
+  font-family: Karla;
+  color: white;
+  margin-left: 10px;
+  font-size: 14px;
+
+}
+/*.landing-core img{
+  object-fit: cover;
+  margin-left: -8px;
+  margin-right: -8px;
+}*/
+
+.image_block{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.image1{
+  height: 100%;
+  width: 100%;
+  background-image: url(../../images/tev_tattoo.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.image2{
+  background-color: #2b8ad026;
+  background-size: cover;
+  background-position: center;
+  height: 46%;
+}
+
+.block{
+  background-image: url("../../images/crttv.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 54%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
