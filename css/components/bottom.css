@@ -1,3 +1,9 @@
+.bottom_bar {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
 .bottom_bar a{
   color: black;
   font-family: Orbitron;
@@ -8,22 +14,20 @@
   text-decoration: none;
 }
 
-.bottom_bar {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
-
 .subbottom_bar{
-  padding: 15px;
+  padding: 14px;
   display: flex;
   align-items: baseline;
   justify-content: space-around;
 }
 
+.subbottom_bar i{
+  font-size: 24px;
+}
+
 .socialmedia{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   grid-template-columns: repeat(2,1fr);
   grid-template-rows: auto;
   border-bottom: 2px solid black;
@@ -44,7 +48,7 @@
   color: black;
   width: 100%;
   font-family: Orbitron;
-  margin-left: 62px;
+/*  margin-left: 62px;*/
 }
 
 .incase2{
@@ -58,14 +62,4 @@
   padding: 12px;
   font-size: 26px;
 }
-
-ul{
-  list-style-type: none;
-  text-decoration: none;
-  color: black;
-  font-family: karla;
-  font-size: 22px;
-}
-
-
 

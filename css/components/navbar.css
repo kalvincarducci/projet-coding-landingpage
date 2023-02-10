@@ -1,3 +1,8 @@
+.subnav{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
 
 .subnav a{
   text-decoration: none;
@@ -6,11 +11,6 @@
   font-size: 22px;
 }
 
-.subnav{
-  display: flex;
-  flex-direction: row;
-  gap: 40px;
-}
 .subnav{
   padding: 15px;
   display: flex;

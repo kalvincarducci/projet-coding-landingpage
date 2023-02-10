@@ -1,3 +1,10 @@
+h2{
+  font-family: Karla;
+  color: white;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
 .landing-core{
   display: flex;
   align-items: ;
@@ -5,18 +12,6 @@
   height: 1000px;
   width: 100%;
 }
-h2{
-  font-family: Karla;
-  color: white;
-  margin-left: 10px;
-  font-size: 14px;
-
-}
-/*.landing-core img{
-  object-fit: cover;
-  margin-left: -8px;
-  margin-right: -8px;
-}*/
 
 .image_block{
   display: flex;
